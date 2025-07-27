@@ -114,3 +114,26 @@ footer {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+
+
+.package-card {
+  background: #111;
+  padding: 30px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #222;
+  color: #f2f2f2;
+  transition: 0.3s;
+}
+.package-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px gold;
+}
+.package-card h2 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+
